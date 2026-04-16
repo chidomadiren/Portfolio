@@ -1,0 +1,29 @@
+print("Welcome to Calculator")
+print("press + for addition")
+print("press _ for subtraction")
+print("press * for multiplication")
+print("press / for division")
+
+operater = input("Enter first choice:")
+
+choice = "operater"
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+result =int(input("num1 , num2"))
+if choice == "+":
+    result = num1 + num2
+    print("result")
+
+elif choice == "-":
+    result = num1 - num2
+    print("result")
+
+elif choice == "*":
+    result = num1 * num2
+    print("result")
+
+elif choice == "/":
+    result = num1 / num2
+    print("result")
+    
+    

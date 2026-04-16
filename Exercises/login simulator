@@ -1,0 +1,11 @@
+user = {"name": "chido",
+        "password":"madi1234"}
+
+username = str(input("Enter your name:"))
+password = str(input("Enter your password:"))
+
+def login(username, password):
+        if username ==user["name"] and password == user["password"]:
+         login()
+         print("login successful!")
+        

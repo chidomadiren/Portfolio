@@ -1,0 +1,26 @@
+name = input(str("Enter your name:"))
+mark = input("Enter your mark:")
+subject = input(str("Enter your subject:"))
+
+75-100=="A"
+60-74=="B"
+50-59=="C"
+40-49=="D"
+0-29=="U"
+
+if mark >= '75':
+    print("A" + "Excellent" + name+ " welldone" + subject + " ")
+    
+if mark >= '60':
+    print("B"+ "very good"+  name + "good"+ subject + " ") 
+else:
+ if mark >= '50':
+    print("C" + "well tried" + name + " keep it up" + subject + " ")
+ else:
+    print("U" + "fail")
+ 
+    
+
+
+
+
